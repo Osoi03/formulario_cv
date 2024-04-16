@@ -1,0 +1,14 @@
+create database almendro;
+
+use almendro;
+
+create table almendro(
+nombre varchar (30),
+apellido varchar(30),
+direccion varchar(30),
+email varchar(30));
+ 
+show databases;
+
+describe almendro;
+select * from personal
